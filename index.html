@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <style>
+        body {
+            background-color: whitesmoke;
+            font-size: 20px;
+            font-family: abel;
+            color: black;
+        }
+
+        #navbar {
+            display: flex;
+            width: 80%;
+            margin: auto;
+            height: 70px;
+            justify-content: space-between;
+            //text-transform:uppercase;
+        }
+
+        #logo {
+            margin-top: 15px;
+        }
+
+        #nav-items {
+            display: flex;
+        }
+
+            #nav-items p:hover {
+                color: white;
+                background-color: black;
+                padding: 3px;
+                border-radius: 4px;
+            }
+
+            #nav-items p {
+                margin: 8px;
+                font-size: 25px;
+            }
+
+        h2, p {
+            text-align: center;
+            font-weight: 100;
+        }
+
+        p {
+            font-size: 22px;
+        }
+
+        #flexButtons {
+            margin: auto;
+            border: 0px solid black;
+            width: 500px;
+            padding: 20px;
+        }
+
+        #flexButtons a{
+            color:white; 
+        }
+
+        #flexButtons a:hover{
+            background-color: white; 
+            color:black; 
+        }
+
+        #container {
+            max-width: 960px;
+            margin: auto;
+            
+        }
+
+        button {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            font-family: abel;
+            border-radius: 25px;
+            margin-bottom: 3px;
+            width: 150px;
+            font-weight: 700;
+            font-size:20px;
+        }
+
+            button:hover {
+                background-color: white;
+                color: black;
+            }
+
+            a{
+                color:black;
+               
+            }
+
+            a:hover{
+                color:white; 
+            }
+
+            blockquote{
+                font-size:25px;
+            }
+    </style>
+</head>
+<body>
+
+    <div id="navbar">
+        <div id="logo">
+            CrackingTheCode
+        </div>
+
+        <div id="nav-items">
+            <p><a href="index.html">Home</a></p>
+            <p><a href="about.html">About</a></p>
+            <p><a href="contact.html">Contact</a></p>
+        </div>
+    </div>
+
+    <div id="container">
+
+        <h2>Welcome to CrackingTheCode</h2>
+
+        <p>
+            CrackingTheCode is a website dedicated to teaching its students the basics of programming and technology. It's primary focus is web development. So you can find here tutorials (both text-based and video-based) on a variety of topics like CSS, JavaScript, React, Express and MongoDB that make up the popular MERN stack. It also covers underlying technologies (like APIs for example) that power web applications in general.
+
+        </p>
+
+        <h2>So, What Do You Want To Learn Today?</h2>
+
+        <div id="flexButtons">
+            <button>CSS</button>
+            <button><a href="js_index.html">JAVASCRIPT</a></button>
+            <button>REACT</button>
+            <button>EXPRESS</button>
+            <button>MONGODB</button>
+            <button>APIS</button>
+        </div>
+
+        <blockquote><center>'The more I read, the more I acquire, the more certain I am that I know nothing'</center></blockquote>
+        <blockquote><center>- Voltaire</center></blockquote>
+    </div>
+
+</body>
+</html>
